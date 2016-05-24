@@ -1,5 +1,7 @@
-# Distributions
+# Distributions 
 Distributions for random values generators
+
+![Deployment](https://travis-ci.org/Marbulinek/Distributions.svg?branch=master)
 
 ## Supported Distributions
 * Uniform Distributions 
