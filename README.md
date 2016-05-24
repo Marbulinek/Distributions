@@ -2,6 +2,7 @@
 Distributions for random values generators
 
 ![Deployment](https://travis-ci.org/Marbulinek/Distributions.svg?branch=master)
+[![Issue Count](https://codeclimate.com/github/Marbulinek/Distributions/badges/issue_count.svg)](https://codeclimate.com/github/Marbulinek/Distributions)
 
 ## Supported Distributions
 * Uniform Distributions 
