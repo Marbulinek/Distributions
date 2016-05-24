@@ -1,7 +1,7 @@
 # Distributions 
 Distributions for random values generators
 
-![Deployment](https://travis-ci.org/Marbulinek/Distributions.svg?branch=master)
+[![Build Status](https://travis-ci.org/Marbulinek/Distributions.svg?branch=master)](https://travis-ci.org/Marbulinek/Distributions)
 [![Issue Count](https://codeclimate.com/github/Marbulinek/Distributions/badges/issue_count.svg)](https://codeclimate.com/github/Marbulinek/Distributions)
 ![CodeCoverity](https://scan.coverity.com/projects/8950/badge.svg)
 
