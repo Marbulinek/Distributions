@@ -14,7 +14,7 @@ Distributions for random values generators
 * Trigonometry Distribution
 
 ## Implementation
-```c
+```csharp
 //init seed
 Random seed = new Random();
 
