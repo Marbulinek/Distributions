@@ -57,15 +57,11 @@ namespace Distributions.EmpiricalDistribution
 
             if (randomNumber >= 0 && randomNumber < _empDataList.ElementAt(0).ValueC)
             {
-                _discreteUniformDistribution.DistributionGenerator = _empDataList.ElementAt(0).Random;
-                _discreteUniformDistribution.SetParameters(_empDataList.ElementAt(0).ValueA, _empDataList.ElementAt(0).ValueB);
-                return (int)_discreteUniformDistribution.GetDistribution();
+                this.ComputeDistribution(0);
             }
             else if (randomNumber >= _empDataList.ElementAt(_empDataList.Count - 1).ValueC)
             {
-                _discreteUniformDistribution.DistributionGenerator = _empDataList.ElementAt(_empDataList.Count - 1).Random;
-                _discreteUniformDistribution.SetParameters(_empDataList.ElementAt(_empDataList.Count - 1).ValueA, _empDataList.ElementAt(_empDataList.Count - 1).ValueB);
-                return (int)_discreteUniformDistribution.GetDistribution();
+                this.ComputeDistribution(_empDataList.Count - 1);
             }
             else
             {
@@ -73,13 +69,23 @@ namespace Distributions.EmpiricalDistribution
                 {
                     if (randomNumber >= _empDataList.ElementAt(i).ValueC && randomNumber < _empDataList.ElementAt(i + 1).ValueC)
                     {
-                        _discreteUniformDistribution.DistributionGenerator = _empDataList.ElementAt(i + 1).Random;
-                        _discreteUniformDistribution.SetParameters(_empDataList.ElementAt(i + 1).ValueA, _empDataList.ElementAt(i + 1).ValueB);
-                        return (int)_discreteUniformDistribution.GetDistribution();
+                        this.ComputeDistribution(i + 1);
                     }
                 }
             }
             return result;
+        }
+
+        /// <summary>
+        /// Compute distribution
+        /// </summary>
+        /// <param name="index">index</param>
+        /// <returns>Distribution probability</returns>
+        private int ComputeDistribution(int index)
+        {
+            _discreteUniformDistribution.DistributionGenerator = _empDataList.ElementAt(index).Random;
+            _discreteUniformDistribution.SetParameters(_empDataList.ElementAt(index).ValueA, _empDataList.ElementAt(index).ValueB);
+            return (int)_discreteUniformDistribution.GetDistribution();
         }
     }
 }
