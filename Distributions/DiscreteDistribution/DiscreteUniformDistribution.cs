@@ -7,7 +7,7 @@
 
         public override double GetDistribution()
         {
-            return base.DistributionGenerator.Next( _max - (_min - 1)) + _min;
+            return DistributionGenerator.Next( _max - (_min - 1)) + _min;
         }
 
         internal void SetParameters(int min, int max)

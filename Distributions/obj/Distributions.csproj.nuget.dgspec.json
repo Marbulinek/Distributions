@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lukas\\Desktop\\Distributions\\Distributions\\Distributions.csproj": {}
+    "/Users/lukas/RiderProjects/Distributions/Distributions/Distributions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lukas\\Desktop\\Distributions\\Distributions\\Distributions.csproj": {
+    "/Users/lukas/RiderProjects/Distributions/Distributions/Distributions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lukas\\Desktop\\Distributions\\Distributions\\Distributions.csproj",
+        "projectUniqueName": "/Users/lukas/RiderProjects/Distributions/Distributions/Distributions.csproj",
         "projectName": "Distributions",
-        "projectPath": "C:\\Users\\lukas\\Desktop\\Distributions\\Distributions\\Distributions.csproj",
-        "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lukas\\Desktop\\Distributions\\Distributions\\obj\\",
+        "projectPath": "/Users/lukas/RiderProjects/Distributions/Distributions/Distributions.csproj",
+        "packagesPath": "/Users/lukas/.nuget/packages/",
+        "outputPath": "/Users/lukas/RiderProjects/Distributions/Distributions/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lukas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/lukas/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
