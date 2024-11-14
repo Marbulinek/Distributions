@@ -1,0 +1,12 @@
+C:\Users\lukas\Desktop\Distributions\Probability\Distributions\bin\Debug\net9.0\Distributions.deps.json
+C:\Users\lukas\Desktop\Distributions\Probability\Distributions\bin\Debug\net9.0\Distributions.dll
+C:\Users\lukas\Desktop\Distributions\Probability\Distributions\bin\Debug\net9.0\Distributions.pdb
+C:\Users\lukas\Desktop\Distributions\Probability\Distributions\obj\Debug\net9.0\Distributions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukas\Desktop\Distributions\Probability\Distributions\obj\Debug\net9.0\Distributions.AssemblyInfoInputs.cache
+C:\Users\lukas\Desktop\Distributions\Probability\Distributions\obj\Debug\net9.0\Distributions.AssemblyInfo.cs
+C:\Users\lukas\Desktop\Distributions\Probability\Distributions\obj\Debug\net9.0\Distributions.csproj.CoreCompileInputs.cache
+C:\Users\lukas\Desktop\Distributions\Probability\Distributions\obj\Debug\net9.0\Distributions.sourcelink.json
+C:\Users\lukas\Desktop\Distributions\Probability\Distributions\obj\Debug\net9.0\Distributions.dll
+C:\Users\lukas\Desktop\Distributions\Probability\Distributions\obj\Debug\net9.0\refint\Distributions.dll
+C:\Users\lukas\Desktop\Distributions\Probability\Distributions\obj\Debug\net9.0\Distributions.pdb
+C:\Users\lukas\Desktop\Distributions\Probability\Distributions\obj\Debug\net9.0\ref\Distributions.dll

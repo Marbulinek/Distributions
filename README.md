@@ -1,7 +1,6 @@
 # Distributions 
-Distributions for random values generators
+Distributions for random values generators.
 
-[![Build Status](https://travis-ci.org/Marbulinek/Distributions.svg?branch=master)](https://travis-ci.org/Marbulinek/Distributions)
 [![Issue Count](https://codeclimate.com/github/Marbulinek/Distributions/badges/issue_count.svg)](https://codeclimate.com/github/Marbulinek/Distributions)
 
 ## Supported Distributions
@@ -15,7 +14,7 @@ Distributions for random values generators
 ## Implementation
 ```csharp
 //init seed
-Random seed = new Random();
+var seed = new Random();
 
 //init trigonometry distribution with seed, min value, max value and median
 var trigonometryDistribution = new TrigonometryDistribution(seed, 100, 300, 150);
